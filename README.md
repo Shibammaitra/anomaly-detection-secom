@@ -37,6 +37,21 @@ Sensor Data → GCN (spatial correlations)
 ```
 
 ---
+## Solution
+Built an end-to-end pipeline mimicking real factory deployment:
+
+**SMOTE** — synthetically balances defective vs normal samples
+**GNN —** maps sensor-to-sensor correlations (like a factory wiring diagram)
+**LSTM —** detects drift patterns over time
+**Threshold Tuning —** prioritises catching defects over false alarms
+**SHAP —** tells engineers which sensors caused the alert
+
+## Results:
+**Accuracy -** ~99%+
+**F1-Score -** 0.9966
+**ROC-AUC -** 1.0000
+**PR-AUC -** 1.0000
+**Recall -** 1.0000
 
 ## Pipeline Steps
 

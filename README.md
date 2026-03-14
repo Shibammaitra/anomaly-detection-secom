@@ -40,7 +40,7 @@ Sensor Data → GCN (spatial correlations)
 
 ## Problem
 Semiconductor factories produce thousands of wafers daily — missing one defect = scrapped wafer = huge financial loss.
-**Key challenges:**
+- **Key challenges:**
 
 1. 14:1 class imbalance — models ignore rare failures
 2. 40%+ missing sensor data

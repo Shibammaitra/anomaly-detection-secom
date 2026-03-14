@@ -37,14 +37,25 @@ Sensor Data → GCN (spatial correlations)
 ```
 
 ---
+
+## Problem
+Semiconductor factories produce thousands of wafers daily — missing one defect = scrapped wafer = huge financial loss.
+**Key challenges:**
+
+1. 14:1 class imbalance — models ignore rare failures
+2. 40%+ missing sensor data
+3. 591 sensors with complex spatial & temporal patterns
+4. Standard accuracy is misleading (93% by predicting all "Normal")
+
+
 ## Solution
 Built an end-to-end pipeline mimicking real factory deployment:
 
-**SMOTE** — synthetically balances defective vs normal samples
-**GNN —** maps sensor-to-sensor correlations (like a factory wiring diagram)
-**LSTM —** detects drift patterns over time
-**Threshold Tuning —** prioritises catching defects over false alarms
-**SHAP —** tells engineers which sensors caused the alert
+1. **SMOTE** — synthetically balances defective vs normal samples
+2. **GNN —** maps sensor-to-sensor correlations (like a factory wiring diagram)
+3. **LSTM —** detects drift patterns over time
+4. **Threshold Tuning —** prioritises catching defects over false alarms
+5. **SHAP —** tells engineers which sensors caused the alert
 
 ## Results:
 **Accuracy -** ~99%+

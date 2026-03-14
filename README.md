@@ -62,7 +62,7 @@ Built an end-to-end pipeline mimicking real factory deployment:
 - `F1-Score - 0.9966`
 - `ROC-AUC - 1.0000`
 - `PR-AUC - 1.0000`
-- Recall - 1.0000`
+- `Recall - 1.0000`
 
 ## Pipeline Steps
 

@@ -12,7 +12,7 @@ A complete, research-grade anomaly detection pipeline on the [UCI SECOM Semicond
 
 ---
 
-## 📌 Overview
+## Overview
 
 | Property | Detail |
 |---|---|
@@ -24,7 +24,7 @@ A complete, research-grade anomaly detection pipeline on the [UCI SECOM Semicond
 
 ---
 
-## 🧠 Architecture
+## Architecture
 
 ```
 Sensor Data → GCN (spatial correlations)
@@ -38,7 +38,7 @@ Sensor Data → GCN (spatial correlations)
 
 ---
 
-## 🗂️ Pipeline Steps
+## Pipeline Steps
 
 1. **Setup & Imports** — Libraries, reproducibility seeds, device setup
 2. **Data Loading & Preprocessing** — UCI download, missing value pruning, imputation, scaling
@@ -57,7 +57,7 @@ Sensor Data → GCN (spatial correlations)
 
 ---
 
-## 📊 Generated Plots
+## Generated Plots
 
 | File | Description |
 |---|---|
@@ -78,7 +78,7 @@ Sensor Data → GCN (spatial correlations)
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
@@ -111,7 +111,7 @@ jupyter notebook anomaly_research_final.ipynb
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 See [`requirements.txt`](requirements.txt). Key packages:
 
@@ -124,7 +124,7 @@ See [`requirements.txt`](requirements.txt). Key packages:
 
 ---
 
-## 🔬 Key Research Findings
+## Key Research Findings
 
 1. **SMOTE** raised minority-class Recall by ~35–50% vs raw imbalanced training.
 2. **Borderline-SMOTE** and **SMOTE-Tomek** generally outperform vanilla SMOTE on PR-AUC.
@@ -134,7 +134,7 @@ See [`requirements.txt`](requirements.txt). Key packages:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 anomaly-detection-secom/
@@ -146,7 +146,7 @@ anomaly-detection-secom/
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 

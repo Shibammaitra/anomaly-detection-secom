@@ -1,4 +1,4 @@
-# 🔬 Research-Grade Anomaly Detection — SECOM Semiconductor Dataset
+# Research-Grade Anomaly Detection — SECOM Semiconductor Dataset
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-orange?logo=pytorch)](https://pytorch.org/)
